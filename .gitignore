@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+
+# Production build
+dist/
+
+# Audio files (NO AUDIO - copyright protection)
+*.mp3
+*.wav
+*.ogg
+*.m4a
+*.flac
+*.aac
+public/audio/
+
+# Video files (NO VIDEO - copyright protection)
+*.mp4
+*.mov
+*.webm
+*.avi
+*.mkv
+
+# Image frame sequences & raw media folders
+public/frames/
+Aishite Images/
+Tame-Impala Images/
+
+# Archives & Temporary / Scratch files
+*.zip
+scratch*
+
+# Environment & System
+.env
+.env.*
+.DS_Store
+Thumbs.db
+*.log
