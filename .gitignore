@@ -20,8 +20,7 @@ public/audio/
 *.avi
 *.mkv
 
-# Image frame sequences & raw media folders
-public/frames/
+# Raw extraction source folders in root (frames are bundled in public/frames/)
 Aishite Images/
 Tame-Impala Images/
 

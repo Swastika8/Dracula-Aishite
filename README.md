@@ -12,9 +12,9 @@ An experimental interactive audiovisual installation that blends two contrasting
 
 ## ⚠️ Important Asset Notice (No Copyrighted Media in Repo)
 
-To prevent copyright claims, **NO AUDIO OR VIDEO FILES ARE STORED IN THIS REPOSITORY**.
+To prevent music copyright claims, **NO AUDIO OR VIDEO FILES ARE STORED IN THIS REPOSITORY**.
 
-To run the installation with full sound and frame animations, you need to provide the media files locally.
+The extracted animation frames (350 photos) are bundled directly in `public/frames/`. To run the installation with full synchronized sound, you simply need to provide the three audio files locally.
 
 ### Required Audio Files:
 Place the following three audio files in the `public/audio/` directory:
@@ -25,13 +25,12 @@ Place the following three audio files in the `public/audio/` directory:
 | `public/audio/glitch.mp3` | **Glitch Sound Effect** | Full sound (~3.1s) | Triggers during the transition |
 | `public/audio/aishite.mp3` | **"愛して愛して愛して"** by Kikuo | `03:02` – `03:28` (26s duration) | Master clock for Section 2 |
 
-*(Synthetic fallback clocks and silent procedural animations will operate if audio files are not present, but real audio is recommended for the intended experience).*
+*(Synthetic fallback clocks and procedural animations will operate if audio files are not present, but real audio is recommended for the intended experience).*
 
-### Required Image Frame Sequences:
-Place your extracted animation frames in the `public/frames/` directory:
-
-- **Dracula Frames**: `public/frames/dracula/ezgif-frame-001.jpg` through `ezgif-frame-300.jpg` (1920×1080)
-- **Aishite Frames**: `public/frames/aishite/ezgif-frame-001.jpg` through `ezgif-frame-050.jpg` (1920×1080)
+### Bundled Image Frame Sequences:
+The animation photo frames are included in `public/frames/`:
+- **Dracula Frames** (`public/frames/dracula/`): 300 animation frames (`ezgif-frame-001.jpg` – `300.jpg`, 1920×1080)
+- **Aishite Frames** (`public/frames/aishite/`): 50 animation frames (`ezgif-frame-001.jpg` – `050.jpg`, 1920×1080)
 
 ---
 
